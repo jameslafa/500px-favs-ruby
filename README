@@ -1,0 +1,27 @@
+= 500px-favs
+
+500px-favs is a small ruby script to download your favorite pictures on the amazing website 500px.com.
+500px.com contains lots of great pictures. Each time you really like a picture, you can add it to your favorites if you have an account.
+With this script, you can download automatically this pictures to save it on your computer and watch it offline
+
+== Notes
+
+This is the first ruby script I have ever wrote. I'm just beginning to learn ruby and the code is probably ugly so :
+* don't try to learn ruby with this script, it's probably not the right way to do things,
+* don't hesitate to help me to improve and correct things so every comment is welcome.
+
+This script was developed and tested on this version of ruby :
+	ruby 1.9.2p290 (2011-07-09 revision 32553) [x86_64-darwin10.8.0]
+
+== Installation
+
+=== 1. Clone the git repository
+	git clone http://github.com/jameslafa/500px-favs.git
+
+=== 2. Configure the script
+In configuration section, change value of 
+* login
+* download_folder
+
+=== 3. Launch script
+	ruby main.rb
