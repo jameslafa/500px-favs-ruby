@@ -15,6 +15,9 @@ require 'open-uri'
 login = "jmslf"
 download_folder = "downloads/" # it need to end with /
 
+# Create the download directory folder if it does not exist
+Dir.mkdir(download_folder) unless File.directory?(download_folder)
+
 # Define rss url
 source = "http://500px.com/" + login + "/favorites.rss"
 
