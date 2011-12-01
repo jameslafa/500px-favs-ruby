@@ -24,7 +24,7 @@ DOWNLOAD_FOLDER = "downloads/" # it need to end with /
 
 
 # Create the download directory folder if it does not exist
-Dir.mkdir(download_folder) unless File.directory?(download_folder)
+Dir.mkdir(DOWNLOAD_FOLDER) unless File.directory?(DOWNLOAD_FOLDER)
 
 # Define rss url
 source = "http://500px.com/" + LOGIN_NAME + "/favorites.rss"
